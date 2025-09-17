@@ -1,12 +1,28 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <style>
+    .iframe-container {
+      display: flex;
+      justify-content: center; 
+      align-items: center;     
+      height: 100vh;          
+    }
+  </style>
+</head>
 <body>
- 
-<h1>The iframe element</h1>
 
- 
-<iframe height = "900" width = "1100" src="https://en.wikipedia.org/wiki/Wikipedia:About" title="wikipedia">
-</iframe>
- 
+  <h1 style="text-align: center;">The iframe element</h1>
+
+  <div class="iframe-container">
+    <iframe 
+      height="900" 
+      width="1300" 
+      src="https://en.wikipedia.org/wiki/Wikipedia:About" 
+      title="Wikipedia"
+      style="border: none;">
+    </iframe>
+  </div>
+
 </body>
 </html>
